@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Estados financieros",
+      "type": "text",
+      "id": "Field_1wjv4gu"
+    },
+    {
+      "values": [
+        {
+          "label": "presenta",
+          "value": "presenta"
+        },
+        {
+          "label": "no presenta",
+          "value": "nopresenta"
+        }
+      ],
+      "label": "Radio",
+      "type": "radio",
+      "id": "Field_0q23j7u",
+      "key": "estados",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1yt5f0a"
+}

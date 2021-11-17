@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Monto solicitado",
+      "type": "text",
+      "id": "Field_028fmhq"
+    },
+    {
+      "label": "Monto",
+      "type": "textfield",
+      "id": "Field_1ezczfy",
+      "key": "montoSolicitado",
+      "description": "ingrese el monto solicitado",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1892z02"
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Solicitud de crédito",
+      "type": "text",
+      "id": "Field_1m2925g"
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_16rxwsn",
+      "key": "nombre",
+      "description": "Ingrese su nombre",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Primer apellido",
+      "type": "textfield",
+      "id": "Field_1ooowpe",
+      "key": "apellido1",
+      "description": "Ingrese su primer apellido",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Segundo apellido",
+      "type": "textfield",
+      "id": "Field_1ab4h7e",
+      "key": "apellido2",
+      "description": "Ingrese su segundo apellido",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Independiente",
+          "value": "Independiente"
+        },
+        {
+          "value": "Planilla",
+          "label": "Planilla"
+        }
+      ],
+      "label": "Tipo de trabajo",
+      "type": "select",
+      "id": "Field_0427jzv",
+      "key": "tipoTrabajo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Ingreso mensual",
+      "type": "textfield",
+      "id": "Field_16ao2vm",
+      "key": "ingreso",
+      "description": "Ingrese su ingreso mensual",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0n4bds4"
+}
